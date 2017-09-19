@@ -6,10 +6,10 @@ import {
 
 import {
   reducer,
-} from ''
+} from '../modules/ticker';
 
 const rootReducer = combineReducers({
-  people
+  reducer,
 });
 
 // enable redux devtools... can this be done with Webpack instead?

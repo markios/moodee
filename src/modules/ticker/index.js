@@ -1,10 +1,10 @@
 
-import reducer from './reducer/ticks-reducer';
+import reducer from './reducers/ticks-reducer';
 import actions from './actions/ticks-actions';
-import container from './components/ticks-container';
+import Ticks from './components/ticks';
 
 export {
   reducer,
   actions,
-  container,
+  Ticks,
 };
