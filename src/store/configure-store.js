@@ -4,12 +4,12 @@ import {
   combineReducers,
 } from 'redux';
 
-import {
-  reducer,
-} from '../modules/ticker';
+import * as ticker from '../modules/ticker';
+import * as menu from '../modules/menu';
 
 const rootReducer = combineReducers({
-  reducer,
+  ticks: ticker.reducer,
+  menu: menu.reducer,
 });
 
 // enable redux devtools... can this be done with Webpack instead?
